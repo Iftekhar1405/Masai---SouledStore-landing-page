@@ -1,0 +1,137 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.Nav{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Nav button{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    border: 0;
+    margin: 10px; 
+    background-color: white;
+}
+.Nav h1{
+    color: rgb(255,49,49);
+    font-size: 50px;
+}
+.Nav sup{
+    color: rgb(255,49,49);
+    font-weight: bolder;
+}
+.TOPWEAR{
+    color: rgb(255,49,49);
+}
+.Nav svg{
+    vertical-align: middle;
+    margin: 10px; 
+}
+.main-img{
+    height: 72vh;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+}
+.check label{
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(100, 100, 100);
+    font-size: small;
+}
+.check h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(100, 100, 100);
+    font-size: small;
+}
+.search-box{
+    width: 300px;
+    height: 20px;
+    border-radius: 4px;
+    border: 2px solid gray;
+}
+.main{
+    display: flex;
+    flex: 1 5;
+    padding: 20px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product{
+    color: rgb(100, 100, 100);
+    font-size: small;
+    margin: 10px;
+}
+.product img{
+    height: 300px;
+}
+.blog img{
+    height: 300px;
+    width: 100%;
+}
+.blog{
+    margin: 10px;
+    color: rgb(65, 65, 65);
+    padding: 20px;
+    border: 1px gray solid;
+    border-radius: 10px;
+}
+.blog h2{
+    color: rgb(48, 48, 48);
+}
+.blogs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+h1{
+    margin: 15px;
+}
+.contact{
+    display: flex;
+    flex: 1 1;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 40px;
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+}
+input{
+    height: 25px;
+    width: 200px;
+    margin: 5px;
+}
+label{
+    color: rgb(77, 77, 77);
+    margin: 20px;
+}
+sup{
+  color: rgb(255,49,49);
+}
+.submit{
+    background-color: rgb(255,49,49);
+    color: white;
+    font-weight: bolder;
+    height: 30px;
+    width: 100px;
+    border: 0;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(165, 165, 165);
+    margin: 20px;
+    border-radius: 10px;
+}
